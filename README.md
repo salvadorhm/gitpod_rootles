@@ -12,12 +12,12 @@ sudo docker-up
 
 ## Build docker image
 ```
-docker build -t kuorra_demo:latest .
+docker build -t webpy_demo:latest .
 ```
 
 ## Test docker image
 ```
-docker run --rm -p 8080:8080 kuorra_demo:latest
+docker run --rm -p 8080:8080 webpy_demo:latest
 ```
 ## Install heroku
 ```
@@ -29,10 +29,17 @@ curl https://cli-assets.heroku.com/install-ubuntu.sh | sh
 ```
 heroku login -i
 ```
+
+## Heroku version
+
+```
+heroku --version
+```
+
 ## Create heroku app
 
 ```
-heroku create
+heroku create webpydemo
 ```
 ## Config as heroku container
 ```
