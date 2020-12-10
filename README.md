@@ -29,3 +29,18 @@ curl https://cli-assets.heroku.com/install-ubuntu.sh | sh
 ```
 heroku login -i
 ```
+## Create heroku app
+
+```
+heroku create
+```
+## Config as heroku container
+```
+heroku stack:set container
+```
+
+## Deploy container to heroku
+
+```
+git push heroku main
+```
