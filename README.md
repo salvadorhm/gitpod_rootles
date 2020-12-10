@@ -15,9 +15,9 @@ sudo docker-up
 docker build -t kuorra_demo:latest .
 ```
 
-## Run docker image
+## Test docker image
 ```
-docker run -p 8080:8080 kuorra_demo:latest
+docker run --rm -p 8080:8080 kuorra_demo:latest
 ```
 ## Install heroku
 ```
